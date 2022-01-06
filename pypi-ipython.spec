@@ -4,7 +4,7 @@
 #
 Name     : pypi-ipython
 Version  : 7.31.0
-Release  : 104
+Release  : 105
 URL      : https://files.pythonhosted.org/packages/e3/57/ba3d99b9f23584ce28dd190c277bc7ab2faccf6cd2a20f2d9e3c45ff7480/ipython-7.31.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e3/57/ba3d99b9f23584ce28dd190c277bc7ab2faccf6cd2a20f2d9e3c45ff7480/ipython-7.31.0.tar.gz
 Summary  : IPython: Productive Interactive Computing
@@ -18,21 +18,7 @@ Requires: pypi-ipython-python3 = %{version}-%{release}
 Requires: Pygments
 Requires: backcall
 Requires: pexpect
-BuildRequires : Pygments
-BuildRequires : backcall
 BuildRequires : buildreq-distutils3
-Provides: ipython
-Provides: ipython-python
-Provides: ipython-python3
-BuildRequires : ipykernel
-BuildRequires : ipython
-BuildRequires : ipython_genutils
-BuildRequires : jupyter_client
-BuildRequires : jupyter_core
-BuildRequires : nose
-BuildRequires : pexpect
-BuildRequires : prompt_toolkit
-BuildRequires : ptyprocess
 BuildRequires : pypi(backcall)
 BuildRequires : pypi(decorator)
 BuildRequires : pypi(jedi)
@@ -42,12 +28,6 @@ BuildRequires : pypi(prompt_toolkit)
 BuildRequires : pypi(pygments)
 BuildRequires : pypi(setuptools)
 BuildRequires : pypi(traitlets)
-BuildRequires : pytest
-BuildRequires : python-dateutil
-BuildRequires : pyzmq
-BuildRequires : six
-BuildRequires : tornado
-BuildRequires : wcwidth
 
 %description
 IPython provides a rich toolkit to help you make the most out of using Python
@@ -115,7 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641446243
+export SOURCE_DATE_EPOCH=1641508194
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

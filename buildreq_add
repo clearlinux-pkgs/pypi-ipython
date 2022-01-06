@@ -1,19 +1,2 @@
 # This file contains additional build requirements that did not get
 # picked up automatically. One name per line, no whitespace.
-Pygments
-backcall
-ipykernel
-ipython
-ipython_genutils
-jupyter_client
-jupyter_core
-nose
-pexpect
-prompt_toolkit
-ptyprocess
-python-dateutil
-pytest
-pyzmq
-six
-tornado
-wcwidth
