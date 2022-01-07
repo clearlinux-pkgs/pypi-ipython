@@ -4,7 +4,7 @@
 #
 Name     : pypi-ipython
 Version  : 7.31.0
-Release  : 105
+Release  : 106
 URL      : https://files.pythonhosted.org/packages/e3/57/ba3d99b9f23584ce28dd190c277bc7ab2faccf6cd2a20f2d9e3c45ff7480/ipython-7.31.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e3/57/ba3d99b9f23584ce28dd190c277bc7ab2faccf6cd2a20f2d9e3c45ff7480/ipython-7.31.0.tar.gz
 Summary  : IPython: Productive Interactive Computing
@@ -16,8 +16,8 @@ Requires: pypi-ipython-man = %{version}-%{release}
 Requires: pypi-ipython-python = %{version}-%{release}
 Requires: pypi-ipython-python3 = %{version}-%{release}
 Requires: Pygments
-Requires: backcall
 Requires: pexpect
+Requires: pypi(backcall)
 BuildRequires : buildreq-distutils3
 BuildRequires : pypi(backcall)
 BuildRequires : pypi(decorator)
@@ -95,7 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641508194
+export SOURCE_DATE_EPOCH=1641518171
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
