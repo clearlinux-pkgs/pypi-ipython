@@ -4,7 +4,7 @@
 #
 Name     : pypi-ipython
 Version  : 8.4.0
-Release  : 117
+Release  : 118
 URL      : https://files.pythonhosted.org/packages/be/06/c0d9ff653f260fe4659b41d509f8e4d6e4bf1f07be594de2d7fd5979c688/ipython-8.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/be/06/c0d9ff653f260fe4659b41d509f8e4d6e4bf1f07be594de2d7fd5979c688/ipython-8.4.0.tar.gz
 Summary  : IPython: Productive Interactive Computing
@@ -105,7 +105,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1656382898
+export SOURCE_DATE_EPOCH=1656399331
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
