@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-ipython
-Version  : 8.13.1
-Release  : 134
-URL      : https://files.pythonhosted.org/packages/0f/89/5a81b01529537e0f59c72679846d8b33c66225055b3ba520e161c42c8e02/ipython-8.13.1.tar.gz
-Source0  : https://files.pythonhosted.org/packages/0f/89/5a81b01529537e0f59c72679846d8b33c66225055b3ba520e161c42c8e02/ipython-8.13.1.tar.gz
+Version  : 8.13.2
+Release  : 135
+URL      : https://files.pythonhosted.org/packages/ee/ad/d908d8aac3e8ac8aec2b89103b6c10f289544623879be0e249de3e508123/ipython-8.13.2.tar.gz
+Source0  : https://files.pythonhosted.org/packages/ee/ad/d908d8aac3e8ac8aec2b89103b6c10f289544623879be0e249de3e508123/ipython-8.13.2.tar.gz
 Summary  : IPython: Productive Interactive Computing
 Group    : Development/Tools
 License  : BSD-3-Clause BSD-3-Clause-Clear
@@ -20,6 +20,7 @@ Requires: pypi(backcall)
 Requires: pypi(pexpect)
 Requires: pypi(pygments)
 BuildRequires : buildreq-distutils3
+BuildRequires : pypi(setuptools)
 # Suppress stripping binaries
 %define __strip /bin/true
 %define debug_package %{nil}
@@ -83,10 +84,10 @@ python3 components for the pypi-ipython package.
 
 
 %prep
-%setup -q -n ipython-8.13.1
-cd %{_builddir}/ipython-8.13.1
+%setup -q -n ipython-8.13.2
+cd %{_builddir}/ipython-8.13.2
 pushd ..
-cp -a ipython-8.13.1 buildavx2
+cp -a ipython-8.13.2 buildavx2
 popd
 
 %build
@@ -94,7 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1682973399
+export SOURCE_DATE_EPOCH=1683215055
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
