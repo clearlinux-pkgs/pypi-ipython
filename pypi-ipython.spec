@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-ipython
-Version  : 8.16.0
-Release  : 139
-URL      : https://files.pythonhosted.org/packages/bc/7f/33ab8dfcf529b9bd0220792a26378b722999fc2b857ce4b06f6e0030ed98/ipython-8.16.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/bc/7f/33ab8dfcf529b9bd0220792a26378b722999fc2b857ce4b06f6e0030ed98/ipython-8.16.0.tar.gz
+Version  : 8.16.1
+Release  : 140
+URL      : https://files.pythonhosted.org/packages/17/ff/23116d95eeb974bd08b57b7d477fb57d68446e04718b6c330d2854ad9923/ipython-8.16.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/17/ff/23116d95eeb974bd08b57b7d477fb57d68446e04718b6c330d2854ad9923/ipython-8.16.1.tar.gz
 Summary  : IPython: Productive Interactive Computing
 Group    : Development/Tools
 License  : BSD-3-Clause BSD-3-Clause-Clear
@@ -84,10 +84,10 @@ python3 components for the pypi-ipython package.
 
 
 %prep
-%setup -q -n ipython-8.16.0
-cd %{_builddir}/ipython-8.16.0
+%setup -q -n ipython-8.16.1
+cd %{_builddir}/ipython-8.16.1
 pushd ..
-cp -a ipython-8.16.0 buildavx2
+cp -a ipython-8.16.1 buildavx2
 popd
 
 %build
@@ -95,7 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1695998255
+export SOURCE_DATE_EPOCH=1696261766
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib

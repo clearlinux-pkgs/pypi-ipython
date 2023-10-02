@@ -1,5 +1,5 @@
 PKG_NAME := pypi-ipython
-URL = https://files.pythonhosted.org/packages/bc/7f/33ab8dfcf529b9bd0220792a26378b722999fc2b857ce4b06f6e0030ed98/ipython-8.16.0.tar.gz
+URL = https://files.pythonhosted.org/packages/17/ff/23116d95eeb974bd08b57b7d477fb57d68446e04718b6c330d2854ad9923/ipython-8.16.1.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
