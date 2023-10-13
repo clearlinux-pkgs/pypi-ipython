@@ -5,7 +5,7 @@
 #
 Name     : pypi-ipython
 Version  : 8.16.1
-Release  : 140
+Release  : 141
 URL      : https://files.pythonhosted.org/packages/17/ff/23116d95eeb974bd08b57b7d477fb57d68446e04718b6c330d2854ad9923/ipython-8.16.1.tar.gz
 Source0  : https://files.pythonhosted.org/packages/17/ff/23116d95eeb974bd08b57b7d477fb57d68446e04718b6c330d2854ad9923/ipython-8.16.1.tar.gz
 Summary  : IPython: Productive Interactive Computing
