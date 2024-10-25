@@ -6,10 +6,10 @@
 # autospec commit: f35655a
 #
 Name     : pypi-ipython
-Version  : 8.28.0
-Release  : 157
-URL      : https://files.pythonhosted.org/packages/f7/21/48db7d9dd622b9692575004c7c98f85f5629428f58596c59606d36c51b58/ipython-8.28.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/f7/21/48db7d9dd622b9692575004c7c98f85f5629428f58596c59606d36c51b58/ipython-8.28.0.tar.gz
+Version  : 8.29.0
+Release  : 158
+URL      : https://files.pythonhosted.org/packages/85/e0/a3f36dde97e12121106807d80485423ae4c5b27ce60d40d4ab0bab18a9db/ipython-8.29.0.tar.gz
+Source0  : https://files.pythonhosted.org/packages/85/e0/a3f36dde97e12121106807d80485423ae4c5b27ce60d40d4ab0bab18a9db/ipython-8.29.0.tar.gz
 Summary  : IPython: Productive Interactive Computing
 Group    : Development/Tools
 License  : BSD-3-Clause BSD-3-Clause-Clear
@@ -84,10 +84,10 @@ python3 components for the pypi-ipython package.
 
 
 %prep
-%setup -q -n ipython-8.28.0
-cd %{_builddir}/ipython-8.28.0
+%setup -q -n ipython-8.29.0
+cd %{_builddir}/ipython-8.29.0
 pushd ..
-cp -a ipython-8.28.0 buildavx2
+cp -a ipython-8.29.0 buildavx2
 popd
 
 %build
@@ -95,7 +95,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1727897352
+export SOURCE_DATE_EPOCH=1729866085
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
