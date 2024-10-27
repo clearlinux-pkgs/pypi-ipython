@@ -7,7 +7,7 @@
 #
 Name     : pypi-ipython
 Version  : 8.29.0
-Release  : 158
+Release  : 159
 URL      : https://files.pythonhosted.org/packages/85/e0/a3f36dde97e12121106807d80485423ae4c5b27ce60d40d4ab0bab18a9db/ipython-8.29.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/85/e0/a3f36dde97e12121106807d80485423ae4c5b27ce60d40d4ab0bab18a9db/ipython-8.29.0.tar.gz
 Summary  : IPython: Productive Interactive Computing
